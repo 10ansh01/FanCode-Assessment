@@ -1,0 +1,60 @@
+.moviefixHead {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: #2c2c2c;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movieSearchInput {
+  margin-right: 20px;
+  padding: 10px 10px 10px 5px;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #f0283c;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+.movieSearchInput::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.movieDataWrapper {
+  margin-top: 150px;
+}
+.movieGenres {
+  display: flex;
+  gap: 8px;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 16px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 5px 5px;
+}
+
+.movieGenres::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
+.year {
+  margin: 20px 10px 5px;
+  color: white;
+  font-weight: 500;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth");
+
+.logo {
+  font-family: Amaranth;
+  font-size: 25px;
+  color: #f0283c;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: 700;
+  line-height: 31px;
+  margin: 16px;
+}
+
+.logo span {
+  display: inline-block;
+  position: relative;
+}
+
+.logo span:nth-child(1) {
+  transform: rotate(-3.39deg);
+}
+.logo span:nth-child(2) {
+  transform: rotate(-2.08deg);
+}
+.logo span:nth-child(3) {
+  transform: rotate(-0.89deg);
+}
+.logo span:nth-child(4) {
+  transform: rotate(0.03deg);
+}
+.logo span:nth-child(5) {
+  transform: rotate(0.87deg);
+}
+.logo span:nth-child(6) {
+  transform: rotate(1.84deg);
+}
+.logo span:nth-child(7) {
+  transform: rotate(2.65deg);
+}
+.logo span:nth-child(8) {
+  transform: rotate(3.55deg);
+}
